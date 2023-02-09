@@ -1,0 +1,7 @@
+{
+  "name": "mike-gift-n5",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
