@@ -1,0 +1,15 @@
+<ion-content fullscreen="true" class="dark-background" [scrollY]="false">
+  <div style="background-color: black;">
+    <img
+      class="fullbg"
+      [hidden]="!bgLoaded"
+      src="assets/images/splash.png"
+      (load)="updateBackgroundView()"
+      style="opacity: 10%;"
+      />
+    </div>
+  <div class="center-div">
+    <img src="assets/icon/splash-icon.png"
+      [class.slide-in-bottom]="showLogButtons" />
+  </div>
+</ion-content>

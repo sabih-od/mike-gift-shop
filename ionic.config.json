@@ -1,7 +1,8 @@
 {
   "name": "mike-gift-n5",
   "integrations": {
-    "cordova": {}
+    "cordova": {},
+    "capacitor": {}
   },
   "type": "angular"
 }
